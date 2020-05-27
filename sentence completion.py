@@ -60,7 +60,7 @@ next_words=[]
 for k in range(0, 999):
 
   prev_words.append(words[k][i:i+LENGTH]  for i in range(len(words[k])-LENGTH))
-  next_words.append(words[k][i+LENGTH]  for i in range(len(words[k])-LENGTH):)
+  next_words.append(words[k][i+LENGTH]  for i in range(len(words[k])-LENGTH))
 
 
 
