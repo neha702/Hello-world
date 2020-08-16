@@ -1,0 +1,8 @@
+# Sentence-completion
+This is a sentence completion task,basically predicting next word using previous 4 words,using two layers of lstm
+Our technology is advancing very rapidly. Everyday we are using different apps ,and its always very tedious to write the whole sentences when we need to search something. We always crave for a method that will reduce our efforts in doing so.
+Text Prediction for sentence completion is a widely used method to enhance the speed of communication as well as reducing the total time taken to compose text.  The aim of my project is all about creating such a sentence completion system ,which will input 4 words and predict the next word. I will be basically using two LSTM layers to build a simple sentence completion system which will provide a quite good accuracy(for both validation set and train set)and won’t overfit.
+Problem definition:
+As shortly defined above, my project’s aim is to build a sentence completion system, basically a text prediction system which will predict the next word based on previous four words.
+Here, I will be providing a  large dataset(a csv file) containing about 7 lakhs sentences as input but , I will be taking subset of the dataset( 40,000 such lines at one time )to train my model. And to test my model ,I will be taking random lines ,basically 4 words of a random line from the input and predict the output,i.e- the next word.
+I will build this model using two hidden layers of LSTM(Long short term memory ), activations  functions to be used are relu and softmax. I will fit adam optimizer  to my model with a learning rate of 0.01.Also, I will be using regularisation method basically dropout method to prevent overfitting .
